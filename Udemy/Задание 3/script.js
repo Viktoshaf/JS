@@ -26,7 +26,7 @@ let appData = {
     savings: false
 };
 
-/*for (let i = 0; i < 2; i++) {
+for (let i = 0; i < 2; i++) {
     const a = prompt('Введите обязательную статью расходов в этом месяце', ''),
           b = prompt('Во сколько обойдется?', '');
 
@@ -37,7 +37,7 @@ let appData = {
         console.log('error');
         i--;
     }
-}*/
+}
 
 
 /*let i = 0;
@@ -54,7 +54,7 @@ while (i<2) {
         }
 }*/
 
-let i = 0;
+/*let i = 0;
 do {const a = prompt('Введите обязательную статью расходов в этом месяце', ''),
 b = prompt('Во сколько обойдется?', '');
 i++;
@@ -65,7 +65,7 @@ console.log('done');
   console.log('error');
   i--;
     } 
-}while (i<2);
+}while (i<2);*/
 
 
 if (money/30 > 0 && money/30 < 500) {
