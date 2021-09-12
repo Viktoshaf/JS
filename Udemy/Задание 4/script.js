@@ -17,7 +17,6 @@
 
 Вызывать функции не обязательно.
 
-
 4) Добавить папку с третьим уроком на GitHub
 Вопросы к этому заданию
 
@@ -28,7 +27,7 @@
 let time = prompt('Введите дату в формате YYYY-MM-DD','');
 let money = +prompt('Ваш бюджет на месяц?','');
 function detectDayBudget () {
-    let dayBeget = alert("Ваш бюджет на день составляет", money/30);
+    let dayBeget = alert(money/30);
     while (money == '' || money == null || isNaN(money)) {
         money = +prompt('Ваш бюджет на месяц?', '');
     }
