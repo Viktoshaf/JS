@@ -20,6 +20,7 @@
 Вопросы к этому заданию
 
 Как перебрать свойства объекта?
+Использовать цикл по свойствам for..in.
 */
 
 
@@ -95,12 +96,8 @@ function chooseIncome () {
 
 chooseIncome ();
 
-// for (let prop in appData) {
-//     console.log(prop + ": " + appData[prop]);
-//   }
+for (let prop in appData) {
+    console.log(prop + ": " + appData[prop]);
+  }
 
-  for (var prop in appData) {
-    if (appData.hasOwnProperty(prop)) {
-      console.log(prop + ": " + appData[prop]);
-  }
-  }
+
